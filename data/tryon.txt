@@ -1,0 +1,17 @@
+Title: Eshtyle | Virtual Try-On
+
+URL Source: https://eshtyle.com/virtual-try-on
+
+Markdown Content:
+How to Use Our Virtual Try-On Feature !
+---------------------------------------
+
+Follow these simple steps to see how you look in your selected outfit:
+
+1.  Select Your Image: Choose a full-body image of yourself. Ensure the image features only you, with a plain background for the best results.
+2.  Choose Your Outfit: Browse through our collection and select the T-shirt design you'd like to try on.
+3.  Submit Your Choices: Click on the "Submit/Generate" button to see how the outfit looks on you. Our AI will work its magic to dress you in your selected outfit.
+4.  View Your Virtual Try-On: If our system is experiencing high demand, you'll be placed in a queue. Don't worry, we'll email you once your virtual try-on is ready.
+5.  Disclaimer for AI Limitations: Please note that the virtual try-on results are AI-generated and their accuracy may vary depending on image quality, lighting conditions, and pose.
+
+Note: If you're not in a queue, your new look will be displayed directly on the website.

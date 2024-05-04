@@ -1,0 +1,72 @@
+Title: Privacy Policy - Eshtyle by Zenrevo IT Solutions
+
+URL Source: https://eshtyle.com/privacy-policy
+
+Markdown Content:
+Introduction
+------------
+
+Welcome to Eshtyle by Zenrevo IT Solutions, a cutting-edge fashion e-commerce platform designed to offer personalized shopping experiences through customization and AI-driven design generation. Our mission is to revolutionize the way you engage with fashion, providing a space for creators to showcase their designs and for customers to create their unique style.
+
+Information Collection
+----------------------
+
+We collect various types of personal information, including:
+
+*   Name and contact details
+*   Payment information
+*   Customization preferences and choices
+*   Images and designs uploaded by creators and users
+
+Data is collected directly from users, through cookies, and other technologies to enhance user experience and improve our services.
+
+Use of Information
+------------------
+
+The collected information is used to:
+
+*   Process transactions and customize products
+*   Provide customer support and respond to inquiries
+*   Generate AI-driven designs based on user preferences
+
+All designs and customizations are processed with the utmost care to ensure your visions are accurately brought to life.
+
+Sharing of Information
+----------------------
+
+Information may be shared with third parties under the following circumstances:
+
+*   Vendors for product customization
+*   Business partners for plugin integration
+
+User designs may also be featured on the platform, with proper consent, to inspire the community.
+
+Data Protection
+---------------
+
+We employ various measures to protect user data, including encryption and access control. Our data retention and deletion policies ensure your information is handled responsibly.
+
+User Rights
+-----------
+
+Users have the right to access, correct, or delete their personal information. For any such requests, please contact us through the information provided below.
+
+Third-Party Services
+--------------------
+
+Our platform may include services from third parties, whose privacy practices are not covered by our policy. We encourage users to review these policies.
+
+International Data Transfers
+----------------------------
+
+Information may be transferred internationally. We ensure all data is protected with appropriate safeguards.
+
+Changes to the Privacy Policy
+-----------------------------
+
+Any changes to our privacy policy will be communicated through our website and via email, where applicable.
+
+Contact Information
+-------------------
+
+For any queries or concerns regarding the prelaunch campaign for Eshtyle or these Terms and Conditions, please contact us at support@eshtyle.com.

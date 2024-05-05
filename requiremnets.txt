@@ -19,3 +19,4 @@ wikipedia
 langchain-fireworks
 arxiv
 langchainhub
+langchain

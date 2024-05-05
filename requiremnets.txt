@@ -14,7 +14,7 @@ faiss-cpu
 groq
 cassio
 beautifulsoup4
-langchain-groq
+langchain_groq
 wikipedia
 langchain-fireworks
 arxiv

@@ -20,3 +20,4 @@ langchain-fireworks
 arxiv
 langchainhub
 langchain
+langchain_groq

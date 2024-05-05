@@ -16,5 +16,6 @@ cassio
 beautifulsoup4
 langchain-groq
 wikipedia
+langchain-fireworks
 arxiv
 langchainhub

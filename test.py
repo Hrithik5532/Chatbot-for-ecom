@@ -40,7 +40,7 @@ def vector_embedding():
 
         st.session_state.embeddings=FireworksEmbeddings(model="nomic-ai/nomic-embed-text-v1.5")
         # st.session_state.loader=DirectoryLoader('data', glob="**/*.txt",loader_cls=TextLoader) ## Data Ingestion
-        st.session_state.loader = CSVLoader(file_path='user_data.csv',csv_args={'delimiter':','})
+        st.session_state.loader = CSVLoader(file_path='data/user_data.csv',csv_args={'delimiter':','})
         st.session_state.docs=st.session_state.loader.load() ## Document Loading
         st.session_state.text_splitter=RecursiveCharacterTextSplitter(chunk_size=1000,chunk_overlap=200) ## Chunk Creation
         st.session_state.final_documents=st.session_state.text_splitter.split_documents(st.session_state.docs[:250]) #splitting

@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import  PyPDFLoader
-from langchain_community.document_loaders import DirectoryLoader,TextLoader
+from langchain_community.document_loaders import DirectoryLoader,TextLoader, CSVLoader
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -24,8 +24,8 @@ llm=ChatGroq(groq_api_key=groq_api_key,
 
 prompt=ChatPromptTemplate.from_template(
 """
-Answer the questions based on the provided context only.
-Please provide the most accurate response based on the question
+
+Check User information, health history and must provide the most accurate response based on the question about symptoms, mood, and concerns.
 <context>
 {context}
 <context>
@@ -39,17 +39,18 @@ def vector_embedding():
     if "vectors" not in st.session_state:
 
         st.session_state.embeddings=FireworksEmbeddings(model="nomic-ai/nomic-embed-text-v1.5")
-        st.session_state.loader=DirectoryLoader('data', glob="**/*.txt",loader_cls=TextLoader) ## Data Ingestion
+        # st.session_state.loader=DirectoryLoader('data', glob="**/*.txt",loader_cls=TextLoader) ## Data Ingestion
+        st.session_state.loader = CSVLoader(file_path='user_data.csv',csv_args={'delimiter':','})
         st.session_state.docs=st.session_state.loader.load() ## Document Loading
         st.session_state.text_splitter=RecursiveCharacterTextSplitter(chunk_size=1000,chunk_overlap=200) ## Chunk Creation
-        st.session_state.final_documents=st.session_state.text_splitter.split_documents(st.session_state.docs[:20]) #splitting
+        st.session_state.final_documents=st.session_state.text_splitter.split_documents(st.session_state.docs[:250]) #splitting
         st.session_state.vectors=FAISS.from_documents(st.session_state.final_documents,st.session_state.embeddings) #vector OpenAI embeddings
 
 
 
 
 
-prompt1=st.text_input("Enter Your Question From Doduments")
+prompt1=st.text_input("Enter Your Question :")
 
 
 if st.button("Documents Embedding"):

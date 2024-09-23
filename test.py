@@ -26,6 +26,7 @@ llm = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
 
 # Define system prompt template for the QA task
 system_prompt = """
+unless user say name don't retrive information from provided content.
 Check User information, health history and must provide the most accurate response based on the question about symptoms, mood, and concerns.
 <context>
 {context}

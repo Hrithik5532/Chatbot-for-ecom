@@ -24,15 +24,19 @@ st.title("Health Consultant")
 # Initialize the Language Model (LLM)
 llm = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
 
-# Define system prompt template for the QA task
+# Define system prompt template for the health consultant bot
 system_prompt = """
-unless user say name don't retrive information from provided content. Retrivie information related to name from content.
-Check User information, health history and must provide the most accurate response based on the question about symptoms, mood, and concerns.
+Unless the user mentions their name, do not retrieve information from the provided content. Retrieve information related to the user's name from the content.
+Check the user's information, health history, and provide the most accurate response based on questions about symptoms, mood, and concerns.
+If the user provides details about their health issues, address those specifically and offer guidance or suggestions accordingly.
+
 <context>
 {context}
 <context>
+
 Questions: {input}
 """
+
 
 # Contextualize question system prompt
 contextualize_q_system_prompt = (
